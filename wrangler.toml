@@ -1,0 +1,6 @@
+name = "blog"
+type = "javascript"
+workers_dev = true
+kv_namespaces = [
+  {binding = "BLOG", id = "24daa77cbb86494ea07fc7472eead65d", preview_id = "24daa77cbb86494ea07fc7472eead65d"},
+]

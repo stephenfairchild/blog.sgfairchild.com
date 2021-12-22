@@ -5,7 +5,9 @@ type LoaderData = {
 };
 
 export async function loader<LoaderFunction>() {
-    const val = BLOG.get("foo");
+    const val = BLOG.get("foo", {
+        type: "json",
+    });
 
     return {
         data: val,
